@@ -9,4 +9,11 @@ export const CONFIG = {
   advancePercent: 50,
   gstPercent: 5,
   shippingCharge: 200,
+
+  razorpayKeyId:
+    import.meta.env.VITE_RAZORPAY_KEY_ID,
+
+  apiUrl:
+    import.meta.env.VITE_API_URL ||
+    "http://localhost:5000",
 };
